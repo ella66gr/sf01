@@ -1,7 +1,11 @@
 <script lang="ts">
-	import '../app.css';
-
-	let { children } = $props();
+  import '$app/environment'; // required in Vite+SvelteKit for envs
+  import '../app.css';       // ✅ ensures Tailwind + Flowbite styles are active
+  import Navbar from '$lib/components/Navbar.svelte';
 </script>
 
-{@render children()}
+<Navbar />
+
+<main class="px-6 py-4">
+  <slot />
+</main>
