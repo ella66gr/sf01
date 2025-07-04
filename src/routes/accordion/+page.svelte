@@ -6,6 +6,10 @@
   }
 </script>
 
+<svelte:head>
+    <title>SF01 Accordion</title>
+</svelte:head>
+
 <h1 class="text-2xl font-bold mb-6">Custom Accordion with Dark Mode Support</h1>
 
 <div class="divide-y divide-gray-200 dark:divide-gray-700 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">

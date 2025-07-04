@@ -19,6 +19,10 @@
   ];
 </script>
 
+<svelte:head>
+  <title>SF01 Home</title>
+</svelte:head>
+
 <section class="p-6 space-y-4">
   <h1 class="text-2xl font-bold">SF01: Flowbite Svelte Component Testbed</h1>
   <ul class="list-disc list-inside">

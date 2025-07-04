@@ -3,6 +3,10 @@
   let enabled = false;
 </script>
 
+<svelte:head>
+    <title>SF01 Toggle</title>
+</svelte:head>
+
 <h1 class="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
   Dark Mode Compatible Toggle
 </h1>
